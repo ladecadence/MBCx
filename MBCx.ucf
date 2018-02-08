@@ -1,0 +1,43 @@
+# control signals
+NET "not_reset"		LOC=	"P29";
+NET "not_cs"			LOC= 	"P8";
+NET "not_wr"			LOC= 	"P7";
+NET "not_ram_cs"		LOC= 	"P30";
+
+# address pins
+NET "addr(12)"			LOC= 	"P12";
+NET "addr(13)"			LOC= 	"P13";
+NET "addr(14)"			LOC= 	"P14";
+NET "addr(15)"			LOC= 	"P16";
+
+# data pins
+NET "data(0)"			LOC= 	"P18";
+NET "data(1)"			LOC= 	"P19";
+NET "data(2)"			LOC= 	"P20";
+NET "data(3)"			LOC= 	"P21";
+NET "data(4)"			LOC= 	"P22";
+NET "data(5)"			LOC= 	"P23";
+NET "data(6)"			LOC= 	"P27";
+NET "data(7)"			LOC= 	"P28";
+
+# rom bank pins
+NET "rom_addr(14)"	LOC= 	"P31";
+NET "rom_addr(15)"	LOC= 	"P32";
+NET "rom_addr(16)"	LOC= 	"P33";
+NET "rom_addr(17)"	LOC= 	"P34";
+NET "rom_addr(18)"	LOC= 	"P36";
+NET "rom_addr(19)"	LOC= 	"P37";
+NET "rom_addr(20)"	LOC= 	"P38";
+NET "rom_addr(21)"	LOC= 	"P39";
+NET "rom_addr(22)"	LOC= 	"P40";
+
+# ram bank pins
+NET "ram_addr(13)"	LOC=	"P6";
+NET "ram_addr(14)"	LOC=	"P5";
+NET "ram_addr(15)"	LOC=	"P3";
+NET "ram_addr(16)"	LOC=	"P2";
+
+# LEDs
+
+NET "led_ctrl"			LOC=	"P43";
+
